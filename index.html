@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/trivia.png" alt="headerImg">
+    </header>
+    <div class="container">
+        <button class="btn btn-primary" id="startButton">Press here to Start</button>
+
+        <!-- Questions -->
+        <div id=timer></div>
+        <div id=currentQuestion></div>
+        <div class="question"></div>
+        <div class="answers"></div>
+
+        <!-- Answers' choices -->
+        <div id=message></div>
+        <div id=rightAnswer></div>
+    
+        <!-- Results -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=wrongAnswers></div>
+        <div id=noAnswer></div>
+        <div id="startOverButton"></div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
